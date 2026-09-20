@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.termkit_history
+.termkit_ai.json
+.vscode/
+.idea/
