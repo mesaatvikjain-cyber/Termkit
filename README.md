@@ -1,4 +1,4 @@
-﻿# TermKit ⚡
+# TermKit ⚡
 > The Modern, All-in-One Developer & System Shell Toolkit.
 
 TermKit is a unified terminal companion designed to replace dozens of one-off scripts, bookmarks, and system monitors. It brings hardware diagnostics, network auditing, process management, safe file organization, live code statistics, project scaffolding, cloud-connected AI, and developer utilities right into one sleek, interactive CLI.
@@ -49,10 +49,10 @@ python TermKit.py
 | `system` | `cpu`, `gpu`, `ram`, `storage`, `battery`, `uptime`, `os` | Hardware & operating system metrics |
 | `network` | `ip`, `ping <host>`, `dns <domain>`, `port <host> <port>`, `web <url>` | Network connectivity and diagnostics |
 | `process` | `list`, `find <name>`, `kill <pid>` | Monitor and manage system processes |
-| `files` | `list [path]`, `find <pattern>`, `read <file> [lines]`, `info <path>`, `arrange [preview]` | File management & safe organizer |
+| `files` | `list [path]`, `find <pattern>`, `read <file> [lines]`, `info <path>`, `arrange [preview] [dir] [tpl]`, `arrange list` | File explorer & safe organizer (general, developer, media, academic, by-extension) |
 | `doctor` | `doctor` | 1-click automated system health checkup |
 | `stats` | `stats [path]` | Scan lines of code, comments, and language stats |
-| `init` | `init <python/web/api> <name>`, `init list` | Generate project boilerplate architectures |
+| `init` | `init [template] [name]`, `init list`, `init` | Scaffold 9 blueprints (fastapi, data-science, cli, bot, fullstack, etc.) + wizard |
 | `ai` | `ai ask <question>`, `ai explain <file>`, `ai config url <endpoint>` | Query custom AI models / Colab server |
 | `tools` | `json <input>`, `hash <file/text>`, `b64 <encode/decode>`, `uuid`, `pass [len]` | Formatters, crypto hashes, Base64, UUIDs |
 | `git` | `status`, `branch`, `log [n]`, `diff`, `add`, `commit <msg>` | Git repository management with colored badges |
